@@ -1,0 +1,59 @@
+.topmenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1028;
+}
+
+.secInnerPageNave {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1028;
+    background-color: #8B008B;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 50%);
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.pageName {
+    font-size: 1.714em;
+    line-height: 2;
+    font-family: GraphikSemibold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.innerPageNave ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.innerPageNave li {
+    float: left;
+    padding: 0px 14px;
+    list-style-type: none;
+}
+
+.innerPageNave li:hover {
+    background-color: #ab529e !important;
+}
+
+.innerPageNave li a {
+    font-size: 1.2em;
+    line-height: 3.4;
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fa-home::before,
+.fa-sticky-note::before,
+.fa-search::before {
+    padding: 5px;
+}
